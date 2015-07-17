@@ -15,4 +15,5 @@ npm run start
 # TBD
 
 * Read the geo from configuration so it can be parameterized per GEO deployment
+* Read the external itos mongo instance from the configuration and write to that mongo instance
 * Ensure that itos can be written to 'externally'
