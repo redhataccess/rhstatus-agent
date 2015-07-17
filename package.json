@@ -1,0 +1,20 @@
+{
+  "name": "rhstatus-agent",
+  "version": "0.0.1",
+  "description": "Measures uptime of websites",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Mendenhall <Samuel.Mendenhall@gmail.com> (https://github.com/engineersamuel)",
+  "license": "MIT",
+  "dependencies": {
+    "agenda": "~0.6.28",
+    "bluebird": "~2.9.33",
+    "lodash": "~3.10.0",
+    "mongodb": "~2.0.36",
+    "request": "~2.58.0",
+    "winston": "~1.0.1"
+  }
+}
